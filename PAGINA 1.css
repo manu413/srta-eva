@@ -1,18 +1,15 @@
+*{
+    margin: 0;
+}
 .menu{
-    background-color: rgb(71, 26, 26);
+    background-color: white;
     display: flex;
-    height: 80px;
-    position: sticky;
+    height: 130px;
     top: 1px;
 }
-.logo{
-    background-image: url(IMAGENES/Logo.png);
-    background-position: center;
-    background-size: cover;
-    border-right: 5px solid white;
-    border-left: 5px solid white;
-    flex-grow: 1;
-    height: 80px;
+.logo img{
+    height: 130px;
+    margin-left: 30px;
 }
 nav{
     flex-grow: 3;
@@ -23,29 +20,54 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin-top: 13px;
-    margin-right: 15px;
+    margin-top: 32px;
+    margin-right: 30px;
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: #633a11;
     font-family: Arial, Helvetica, sans-serif;
 }
 nav ul li a:hover{
-    color: #ffb81c;
-    /* border-bottom: 3px solid #ff084e; */
-    /* padding: 12px 30px;
-    border-radius: 8px; */
-
+    color: #f95E59;
 }
 header{
-    background-color: #35c4af;
-    height: 400px;
-    align-items: center;
-    text-align: center;
+    height: 580x; 
 }
 header h1{
-    font-size: 90px;
-    color: black;
-    letter-spacing: 10px;
+    font-family: 'Calistoga', cursive;
+    font-size: 50px;
+    color: #633a11;
+    letter-spacing: 5px;
+    margin-left: 50px;
+    width: 50%;
+    margin-top: 50px;
+} 
+header h2{
+    font-family: 'Calistoga', cursive;
+    font-size: 20px;
+    color: #633a11;
+    letter-spacing: 2px;
+    margin-left: 50px;
+    display: flex;
+    margin-top: 5px;
 }
+.imagen{
+    background-image: url(IMAGENES/Dumbo2.png);
+    border: 2px solid red;
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+    justify-content: right;
+    display: flex;
+    margin: auto;
+}
+/* .ventana img{
+    height: 200px;
+    width: 200px;
+    justify-content: right;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+} */
