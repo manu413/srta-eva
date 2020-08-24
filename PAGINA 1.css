@@ -55,19 +55,18 @@ header h2{
 .imagen{
     background-image: url(IMAGENES/Dumbo2.png);
     border: 2px solid red;
-    height: 500px;
-    width: 500px;
+    height: 200px;
+    width: 200px;
     background-position: center;
     background-size: cover;
     justify-content: right;
     display: flex;
-    margin: auto;
+    margin: auto; 
 }
-/* .ventana img{
-    height: 200px;
-    width: 200px;
-    justify-content: right;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-} */
+section{
+    /* background-color: white; */
+}
+.ventana1{
+    height: 580px;
+    background-color: rosybrown;
+} 
