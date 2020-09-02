@@ -73,3 +73,24 @@ header h2{
     display: flex;
     flex-wrap: wrap;
 } */
+
+.porque{
+    background-color: white;
+    display: flex;
+    height: 650px;
+
+    top: 1px;
+}
+
+.derecho{
+    width: 60%;
+    background-color: #ffb81c;
+    border: 3px solid #35c4af ;
+}
+
+.derecho p{
+    padding: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
