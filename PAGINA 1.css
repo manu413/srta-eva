@@ -84,13 +84,35 @@ header h2{
 
 .derecho{
     width: 60%;
-    background-color: #ffb81c;
-    border: 3px solid #35c4af ;
+    background-color: #ffb71ce8;
+    border: 5px solid #35c4af ;
 }
 
 .derecho p{
     padding: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
+    font-family:  'Calistoga', cursive;
+    font-size: 20px ;
+    color: #633a11;
+   
 }
+
+.izquierdo{
+    width: 30%;
+    background-color: #35c4afb2;
+    height: 160px;
+    margin-top: 240px;
+}
+
+.izquierdo h1{
+    font-family:  'Calistoga', cursive;
+    font-size: 30px ;
+    color: #633a11;
+    padding: 42px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+
+
 
