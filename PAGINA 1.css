@@ -1,6 +1,10 @@
 *{
     margin: 0;
 }
+
+body{
+    background-color: rgb(209, 206, 206);
+}
 .menu{
     background-color: white;
     display: flex;
@@ -34,6 +38,8 @@ nav ul li a:hover{
 header{
     height: 580x; 
     display: flex;
+    background-color: white;
+    margin-top: 20px;
 }
 
 
@@ -78,14 +84,16 @@ header h2{
     background-color: white;
     display: flex;
     height: 650px;
+    margin-top: 30px;
+    position: relative;
 
-    top: 1px;
 }
 
 .derecho{
     width: 60%;
     background-color: #ffb71ce8;
     border: 5px solid #35c4af ;
+  
 }
 
 .derecho p{
@@ -97,10 +105,13 @@ header h2{
 }
 
 .izquierdo{
-    width: 30%;
+    width: 50%;
     background-color: #35c4afb2;
     height: 160px;
     margin-top: 240px;
+    position: absolute;
+    top: 7%;
+    right: 0px;
 }
 
 .izquierdo h1{
