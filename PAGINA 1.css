@@ -33,14 +33,16 @@ nav ul li a:hover{
 }
 header{
     height: 580x; 
+    display: flex;
 }
+
+
 header h1{
     font-family: 'Calistoga', cursive;
     font-size: 50px;
     color: #633a11;
     letter-spacing: 5px;
     margin-left: 50px;
-    width: 50%;
     margin-top: 50px;
 } 
 header h2{
@@ -55,8 +57,8 @@ header h2{
 .imagen{
     background-image: url(IMAGENES/Dumbo2.png);
     border: 2px solid red;
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 40%;
     background-position: center;
     background-size: cover;
     justify-content: right;
