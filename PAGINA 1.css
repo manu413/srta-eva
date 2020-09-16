@@ -225,10 +225,17 @@ header h2{
     width: 45%;
     text-align: center;
 }
-.porqueizquierdo{
+.contenedor4{
     height: 620px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 15px;
+}
+.porqueizquierdo{
     width: 50%;
     background-color: #F6827E;
+    background-size: cover;
+
 }
 .porqueizquierdo h2{
     font-size: 60px;
@@ -245,4 +252,16 @@ header h2{
     color: #633a11;
     margin-top: 15px;
     margin-left: 60px;
+}
+.porquederecho{
+    background-color: rgb(216, 196, 158);
+    width: 50%;
+}
+.porquederecho img{
+    height: 400px;
+    width: 200px;
+}
+.contactanos{
+    height: 620px;
+    background-color: violet;
 }
