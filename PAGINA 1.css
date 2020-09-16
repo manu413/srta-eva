@@ -65,7 +65,7 @@ header h2{
     display: flex;
     margin: auto; 
 }
-.porque{
+.porquenombre{
     background-color: white;
     display: flex;
     height: 620px;
@@ -100,28 +100,49 @@ header h2{
     text-align: center;
     padding-top: 50px;
 }
+.imagenEva{
+    background-image: url(IMAGENES/SRTA\ EVA\ PERRO\ 1.png);
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    margin: auto; 
+}
 .servicios{
     height: 620px;
     background-color: white;
     display: flex;
     align-items: center;
     margin-top: 15px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.servicios h2{
+    font-size: 60px;
+    color: #f95E59;
+    letter-spacing: 5px;
+    font-family: 'Galada', cursive;
 }
 .servicios1{
     width: 85%;
     height: 60%;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    /* border: 1px solid red; */
 }
 .servicios1 a{
-    width: 215px;
-    height: 215px;
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-left: 15px;
     background-size: cover;
     background-position: center;
 }
@@ -203,4 +224,25 @@ header h2{
     padding: 5px;
     width: 45%;
     text-align: center;
+}
+.porqueizquierdo{
+    height: 620px;
+    width: 50%;
+    background-color: #F6827E;
+}
+.porqueizquierdo h2{
+    font-size: 60px;
+    font-family: 'Galada', cursive;
+    color: #633a11;
+    margin-left: 22%;
+    margin-top: 15px;
+    letter-spacing: 4px;
+}
+.porqueizquierdo p{
+    font-size: 25px;
+    font-family: 'Calistoga', cursive;
+    margin-left: 25px;
+    color: #633a11;
+    margin-top: 15px;
+    margin-left: 60px;
 }
