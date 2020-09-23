@@ -289,17 +289,12 @@ header a{
 }
 /*alejandro*/
 
-*{
+.contacto{
+    width: 90%;
+    margin: auto;
+    color: #798e94;
     font-family: sans-serif;
     font-size: 12px;
-    color: #798e94;
-}
-body{
-    width: 1300px;
-    margin: auto;
-    background-color: #E2ECEE;
-}
-.contacto{
     border: 1px solid #CED5D7;
     border-radius: 6px;
     padding: 45px 45px 20px;
