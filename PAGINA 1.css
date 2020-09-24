@@ -1,10 +1,6 @@
 *{
     margin: 0;
 }
-
-body{
-    background-color: rgb(209, 206, 206);
-}
 .menu{
     background-color: white;
     display: flex;
@@ -24,25 +20,24 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin-top: 32px;
+    margin-top: 35px;
     margin-right: 30px;
 }
 nav ul li a{
     text-decoration: none;
     color: #633a11;
     font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
 }
 nav ul li a:hover{
     color: #f95E59;
 }
 header{
-    height: 580x; 
+    height: 490x; 
     display: flex;
     background-color: white;
     margin-top: 20px;
 }
-
-
 header h1{
     font-family: 'Calistoga', cursive;
     font-size: 50px;
@@ -62,58 +57,41 @@ header h2{
 }
 .imagen{
     background-image: url(IMAGENES/Dumbo2.png);
-    border: 2px solid red;
     height: 500px;
     width: 40%;
-    background-position: center;
+    background-position: right;
     background-size: cover;
     justify-content: right;
     display: flex;
-    margin: auto;
+    margin: auto; 
 }
-/* .ventana img{
-    height: 200px;
-    width: 200px;
-    justify-content: right;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-.porque{
+.porquenombre{
     background-color: white;
     display: flex;
-    height: 650px;
-    margin-top: 30px;
+    height: 620px;
+    margin-top: 15px;
     position: relative;
-
 }
-
 .derecho{
-    width: 60%;
+    width: 75%;
     background-color: #ffb71ce8;
-    border: 5px solid #35c4af ;
-  
 }
-
 .derecho p{
+    margin-top: 10px;
     padding: 35px;
     font-family:  'Calistoga', cursive;
-    font-size: 20px ;
-    color: #633a11;
-   
+    font-size: 24px ;
+    color: #633a11;  
 }
-
 .izquierdo{
-    width: 50%;
-    background-color: #35c4afb2;
+    width: 35%;
+    background-color: #35C4AF;
     height: 160px;
     margin-top: 240px;
     position: absolute;
     top: 7%;
     right: 0px;
 }
-
 .izquierdo h1{
     font-family:  'Calistoga', cursive;
     font-size: 30px ;
@@ -121,12 +99,244 @@ header h2{
     padding: 42px;
     text-align: center;
     padding-top: 50px;
+}
+.imagenEva{
+    background-image: url(IMAGENES/SRTA\ EVA\ PERRO\ 1.png);
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    margin: auto; 
+}
+.servicios{
+    height: 620px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.servicios h2{
+    font-size: 60px;
+    color: #f95E59;
+    letter-spacing: 5px;
+    font-family: 'Galada', cursive;
+}
+.servicios1{
+    width: 85%;
+    height: 60%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.servicios1 a{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.servicios1 a:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+.imagen1{
+    background-image: url(IMAGENES/servicios1.png);
+}
+.imagen2{
+    background-image: url(IMAGENES/servicios2.png);
+}
+.imagen3{
+    background-image: url(IMAGENES/servicios3.png);
+}
+.imagen4{
+    background-image: url(IMAGENES/servicios4.png);
+}
+.imagen5{
+    background-image: url(IMAGENES/servicios5.png);
+}
+.imagen6{
+    background-image: url(IMAGENES/servicios6.png);
+}
+.imagen7{
+    background-image: url(IMAGENES/servicios7.png);
+}
+.imagen8{
+    background-image: url(IMAGENES/servicios8.png);
+}
+.imagen9{
+    background-image: url(IMAGENES/servicios9.png);
+}
+.imagen10{
+    background-image: url(IMAGENES/servicios10.png);
+}
+.ventana1, .ventana2, .ventana3, .ventana4, .ventana5, .ventana6, .ventana7, .ventana8, .ventana9, .ventana10{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 10;
+    display: none;
+} 
+.activar{
+    top: 0px;
+    transform: scale(1);
+}
+.ventanita{
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    border-radius: 20px;
+    padding: 30px;
+    color: rgb(83, 81, 81);
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.ventanita h2{
+    width: 90%;
+    margin-top: -60px;
+    text-align: center;
+}
+.ventanita a{
+    width: 8%;
+    margin-top: -128px;
+    margin-right: -50px;
+} 
+.ventanita img{
+    width: 45%;
+} 
+.ventanita p{
+    padding: 5px;
+    width: 45%;
+    text-align: center;
+}
+.contenedor4{
+    height: 620px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 15px;
+}
+.porqueizquierdo{
+    width: 50%;
+    background-color: #F6827E;
+    background-size: cover;
+
+}
+.porqueizquierdo h2{
+    font-size: 60px;
+    font-family: 'Galada', cursive;
+    color: #633a11;
+    margin-left: 22%;
+    margin-top: 15px;
+    letter-spacing: 4px;
+}
+.porqueizquierdo p{
+    font-size: 25px;
+    font-family: 'Calistoga', cursive;
+    margin-left: 25px;
+    color: #633a11;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.porquederecho{
+    background-color: rgb(216, 196, 158);
+    width: 50%;
+}
+.porquederecho img{
+    height: 400px;
+    width: 200px;
+}
+.contactanos{
+    height: 620px;
+    background-color: violet;
+}
+
+/*.Tips h2{
+    font-size: 60px;
+    color: black;
+    letter-spacing: 5px;
+    font-family: 'Galada', cursive;
+}*/
+.Tips{
+    
+    
+       height: 600px;
+        width: 80%;
+        margin: 20px auto;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+        /*display: flex;
+        justify-content: space-around;*/
+
+    
+   
+}
+.Tips h2{
+
+    
+    height: 900%;
+    font-size: 100px;
+    color: black;
+    letter-spacing: 5px;
+    font-family: 'Galada', cursive;
+  
+}
+
+.Tips div .small {
+    height: 40%;
+}
+.Tips div img {
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+.Tips{
+    height: 600px;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
 
 }
 
+.Tips div img{
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+}
 
+.Tips div{
+    height: 100%;
+    width: 24%;
+}
 
+.Tips div .big{
+    height: 59%;
+}
 
+.Tips div .small{
+    height: 40%;
+}
 
-
+.Tips div img:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
 
