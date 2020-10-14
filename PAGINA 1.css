@@ -361,23 +361,30 @@ header a{
 }
 
 .Tips h1{
-    text-align: center;}
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Calistoga', cursive;
+    color: #633a11;
+}
+
 .contactanos{
     padding: 10px;
     margin-bottom: 1.5rem;
 }
 .Tips h2{
     text-align: center;
-    color: coral;
+    font-size: 30px;
+    color: #633a11;
+    font-family: 'Calistoga', cursive;
 }
     .contenedorSlider{
-        height: 560px;
-        width: 80%;
+        height: 500px;
+        width: 90%;
         margin: 20px auto;
         display: flex;
         border-radius: 5px;
         overflow: hidden;
-        border: coral 10px solid;
+        border: gainsboro 10px solid;
     }
     
     #imgS{
