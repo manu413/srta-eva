@@ -55,6 +55,20 @@ header h2{
     display: flex;
     margin-top: 5px;
 }
+header a{
+    position: relative;
+    top: 30px;
+    padding: 15px;
+    margin-left: 175px;
+    text-decoration: none;
+    color: #633a11;
+    font-size: 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Calistoga', cursive;
+    background-color: #ffb81c;
+}
 .imagen{
     background-image: url(IMAGENES/Dumbo2.png);
     height: 500px;
@@ -128,19 +142,23 @@ header h2{
     letter-spacing: 5px;
     font-family: 'Galada', cursive;
 }
+.servicios p{
+    font-family:  'Calistoga', cursive;
+    font-size: 15px;
+}
 .servicios1{
     width: 85%;
     height: 60%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 55px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 .servicios1 a{
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
     margin-bottom: 15px;
     margin-left: 15px;
     background-size: cover;
@@ -180,7 +198,7 @@ header h2{
 .imagen10{
     background-image: url(IMAGENES/servicios10.png);
 }
-.ventana1, .ventana2, .ventana3, .ventana4, .ventana5, .ventana6, .ventana7, .ventana8, .ventana9, .ventana10{
+.ventana1, .ventana2, .ventana3, .ventana4, .ventana5, .ventana6, .ventana7, .ventana8, .ventana9, .ventana10, .ventana11{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -230,12 +248,13 @@ header h2{
     background-color: white;
     display: flex;
     margin-bottom: 15px;
+    position: relative;
 }
 .porqueizquierdo{
     width: 50%;
     background-color: #F6827E;
     background-size: cover;
-
+    padding-top: 150px;
 }
 .porqueizquierdo h2{
     font-size: 60px;
@@ -244,6 +263,9 @@ header h2{
     margin-left: 22%;
     margin-top: 15px;
     letter-spacing: 4px;
+    position: absolute;
+    top: 30px;
+    left: 10%;
 }
 .porqueizquierdo p{
     font-size: 25px;
@@ -261,82 +283,105 @@ header h2{
     height: 400px;
     width: 200px;
 }
-.contactanos{
-    height: 620px;
-    background-color: violet;
-}
 
-/*.Tips h2{
-    font-size: 60px;
-    color: black;
-    letter-spacing: 5px;
-    font-family: 'Galada', cursive;
-}*/
-.Tips{
-    
-    
-       height: 600px;
-        width: 80%;
-        margin: 20px auto;
-        margin-top: 20px;
-        margin-right: auto;
-        margin-bottom: 20px;
-        margin-left: auto;
-        /*display: flex;
-        justify-content: space-around;*/
-
-    
-   
+.Tips h1{
+    text-align: center;
 }
 .Tips h2{
-
+    text-align: center;
+    color: coral;
+}
+    .contenedorSlider{
+        height: 560px;
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        border-radius: 5px;
+        overflow: hidden;
+        border: coral 10px solid;
+    }
     
-    height: 900%;
-    font-size: 100px;
-    color: black;
-    letter-spacing: 5px;
-    font-family: 'Galada', cursive;
-  
-}
+    #imgS{
+        width: 100%;
+        position: relative;
+        animation: slider 70s ease-out infinite alternate ;
+    }
+    @keyframes slider{
+        0%{left: 0%;}
+        15%{left: 0%;}
+    
+        18%{left:-100%;}
+        33%{left: -100%;}
+    
+        36%{left: -200%;}
+        51%{left: -200%;}
+    
+        54%{left: -300%;}
+        69%{left: -300%;}
+    
+        72%{left: -400%;}
+        87%{left: -400%;}
 
-.Tips div .small {
-    height: 40%;
-}
-.Tips div img {
-    width: 100%;
-    object-fit: cover;
-    transition: all 0.5s;
-}
-.Tips{
-    height: 600px;
-    width: 80%;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-around;
+        90%{left: -500%;}
+        100%{left: -500%;}
+    }
+    
+    
 
-}
 
-.Tips div img{
-    width: 100%;
-    object-fit: cover;
-    transition: all 0.5s;
-}
+/*Alejandro*/
 
-.Tips div{
-    height: 100%;
-    width: 24%;
+.contacto{
+    width: 90%;
+    margin: auto;
+    color: #798e94;
+    font-family: sans-serif;
+    font-size: 12px;
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
 }
-
-.Tips div .big{
-    height: 59%;
+.contacto label{
+    display: block;
+    font-weight: bold;
 }
-
-.Tips div .small{
-    height: 40%;
+.contacto div{
+    margin-bottom: 15px;
 }
-
-.Tips div img:hover{
-    transform: scale(1.02);
-    cursor: pointer;
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
 }
-
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #dde9ec;
+}
+.contacto input[type='submit']{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+ 
+    background: #e4f1f6;
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+.contacto input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+.contacto input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
