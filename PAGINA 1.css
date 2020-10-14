@@ -298,6 +298,26 @@ header a{
     text-align: justify;
     font-size: 20px;
 }
+.productos{
+    height: 620px;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    display: flex;
+    background-position: bottom;
+    border: 1px solid red;
+}
+.productos h1{
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.articulos{
+    height: 30%;
+    width: 15%;
+    background-color: rgb(216, 196, 158);
+    margin: 30px 30px;
+}
 .contenedor4{
     height: 620px;
     background-color: white;
@@ -400,10 +420,7 @@ header a{
     background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
     background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
 }
-.contacto .redes img{
-    display: inline;
-    width: 10%;
-}
+
 .contacto .formulario{
     display: inline-block;
     width: 20%;
