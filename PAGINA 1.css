@@ -562,3 +562,18 @@ header a{
     text-align: center;
 
 }
+.contacto .alejo img{
+    display: inline;
+    width: 70%;
+    border-radius: 10px;
+}
+.alejo{
+    position: absolute;
+    top: 9%;
+    left: 40%;
+    width: 720px;
+    
+}
+.alejo img{
+    width: 1000%;
+}
