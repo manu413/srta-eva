@@ -413,24 +413,9 @@ header a{
     display: block;
     
 }
-.redes{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    
-}
-.escribir{
-    position: absolute;
-    top: 64%;
-    left: 48%;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align-last: auto;
-} 
 .contenedorGaleria{
-    height: 680px;
-    width: 80%;
+    height: 600px;
+    width: 90%;
     margin: 20px auto;
     display: flex;
     justify-content: space-around;
@@ -442,7 +427,7 @@ header a{
 }
 
 .contenedorGaleria div{
-    height: 100%;
+    height: 92%;
     width: 24%;
 }
 
@@ -458,17 +443,13 @@ header a{
     transform: scale(1.02);
     cursor: pointer;
 }
-
-
 .galeria{
     background-color: rgba(0, 0, 0, 0.8);
     height: 0;
     width: 100%;
     position: fixed;
     top: 0px;
-
     opacity: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -505,11 +486,62 @@ header a{
     border: 2px solid silver;
 }
 .ubicacion{
-    height: 500px;
+    height: 450px;
     width: 100%;
     background-color: white;
 }
 .ubicacion #ubi{
+    width: 70%;
+    height: 300px;
+    margin-left: 15%;
+}
+.ubicacion h3{
+    text-align: center;
+    color: #633a11;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.ubicacion p{
+    color: #633a11;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 12px;
+}
+.final{
+    height: 150px;
     width: 100%;
-    height: 500px;
+    background-color: #f95E59;
+}
+.final h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+}
+.final #facebook{
+    width: 40px;
+    height: 40px;
+}
+.final #instagram{
+    width: 40px;
+    height: 40px;
+}
+.final #whatsapp{
+    width: 40px;
+    height: 40px;
+}
+.final #telefono{
+    width: 40px;
+    height: 40px;
+    margin-left: 27%;
+}
+.final a{
+    text-decoration: none;
+}
+.final p{
+    font-size: 15px;
+    text-align: center;
+
 }
