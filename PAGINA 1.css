@@ -457,8 +457,8 @@ header a{
 }
 
 .contenedorGaleria div img:hover{
-    transform: scale(1.02);
-    cursor: pointer;
+    transform: scale(2);
+    /* cursor: pointer; */
 }
 .galeria{
     background-color: rgba(0, 0, 0, 0.8);
@@ -563,7 +563,7 @@ header a{
 
 }
 .contacto .alejo img{
-    display: inline;
+    /* display: inline; */
     width: 70%;
     border-radius: 10px;
 }
