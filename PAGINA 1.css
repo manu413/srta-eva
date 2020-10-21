@@ -359,11 +359,63 @@ header a{
     width: 100%;
     height: 100%;
 }
+
+.Tips h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Calistoga', cursive;
+    color: #633a11;
+}
+
 .contactanos{
     padding: 10px;
     margin-bottom: 1.5rem;
 }
-/*alejandro*/
+.Tips h2{
+    text-align: center;
+    font-size: 30px;
+    color: #633a11;
+    font-family: 'Calistoga', cursive;
+}
+    .contenedorSlider{
+        height: 500px;
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        border-radius: 5px;
+        overflow: hidden;
+        border: gainsboro 10px solid;
+    }
+    
+    #imgS{
+        width: 100%;
+        position: relative;
+        animation: slider 70s ease-out infinite alternate ;
+    }
+    @keyframes slider{
+        0%{left: 0%;}
+        15%{left: 0%;}
+    
+        18%{left:-100%;}
+        33%{left: -100%;}
+    
+        36%{left: -200%;}
+        51%{left: -200%;}
+    
+        54%{left: -300%;}
+        69%{left: -300%;}
+    
+        72%{left: -400%;}
+        87%{left: -400%;}
+
+        90%{left: -500%;}
+        100%{left: -500%;}
+    }
+    
+    
+
+
+/*Alejandro*/
 
 .contacto{
     width: 90%;
